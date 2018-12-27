@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.flightres.controller.ReservationsUIHandler">
+   <children>
+      <TableView fx:id="reservationsTable" prefHeight="502.0" prefWidth="1300.0">
+        <columns>
+          <TableColumn fx:id="flightNumber" minWidth="150.0" prefWidth="150.0" text="Flight Number" />
+          <TableColumn fx:id="from" minWidth="100.0" prefWidth="100.0" text="From" />
+            <TableColumn fx:id="to" minWidth="100.0" prefWidth="100.0" text="To" />
+            <TableColumn fx:id="arrivalTime" minWidth="200.0" prefWidth="200" text="Arrival Time" />
+            <TableColumn fx:id="departureTime" minWidth="200.0" prefWidth="200.0" text="Depature Time" />
+            <TableColumn fx:id="seat" minWidth="70.0" prefWidth="100.0" text="Seat" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>

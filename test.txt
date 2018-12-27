@@ -1,0 +1,5 @@
+JDBC_DRIVER = com.mysql.jdbc.Driver
+DB_URL = jdbc:mysql://localhost/
+USER = root
+PASS = root
+
